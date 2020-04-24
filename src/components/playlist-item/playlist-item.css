@@ -1,0 +1,54 @@
+.playlist-item{
+    justify-content: space-between;
+    margin: 10px 15px;
+    display: flex;
+    width: 100%;
+}
+
+
+.item-play, .item-delete {
+    padding: 0;
+    margin-left: 15px;
+    color: rgba(73, 135, 175, 1);
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.movie-runtime{
+    font-size: 10pt;
+    margin: 0 0 5px 10px;
+}
+
+.item-title{
+    width: 70%;
+}
+
+.movie-title{
+    margin-bottom: 5px;
+}
+
+
+.item-number{
+    padding: 10px 15px;
+    background-color: rgba(73, 135, 175, 1);
+    color: white;
+    width: 15%;
+    text-align: center;
+}
+
+.item-number span{
+    position: absolute;
+}
+
+.item-number.play{
+    background-color: rgba(232, 69, 69, 0.97);
+}
+
+.item-config.play i{
+    color: rgba(232, 69, 69, 0.97);
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+.sort-by{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 0.5rem;
+    border: rgba(73, 135, 175, 1) solid 1px;
+}
+
+.sort-by-option{
+    margin: 0;
+    width: 50%;
+}

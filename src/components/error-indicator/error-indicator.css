@@ -1,0 +1,25 @@
+.error{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: rgba(34, 35, 35, 1);
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.error-message{
+    margin-top: 15%;
+}
+
+.error-message p{
+    margin-bottom: .5rem;
+}
+
+.error-message p.fa{
+    color: rgba(232, 69, 69, 0.97);
+    font-size: 70pt;
+}
+

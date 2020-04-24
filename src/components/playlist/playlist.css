@@ -1,0 +1,20 @@
+.playlist{
+    overflow-y: scroll;
+    height: 420px;
+}
+
+.list-group-item{
+    padding: 0;
+    display: flex;
+}
+
+.playlist-title{
+    font-family: 'Cookie', cursive;
+    font-size: 20pt;
+    color: #97020e;
+    padding: 10px 15px 0px;
+    margin-bottom: 5px;
+    border-bottom: #4e9bf8 solid 1px;
+    border-top: #4e9bf8 solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

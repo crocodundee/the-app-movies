@@ -1,0 +1,18 @@
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+
+.page-button{
+    color: rgba(193, 0, 54, .97);
+    border: rgba(193, 0, 54, .97) solid 1px;
+}
+
+
+.page-button:hover{
+    background-color: rgba(193, 0, 54, .97);
+    color: white;
+}

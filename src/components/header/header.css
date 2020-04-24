@@ -1,0 +1,34 @@
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.app-header{
+    border-bottom: rgba(34, 35, 35, 1) solid 1px;
+    background-color: rgba(34, 35, 35, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1.6rem 2.5rem;
+    margin-bottom: 1.5rem;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-logo, .app-logo:hover{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    text-decoration: none;
+    color: rgba(232, 69, 69, 0.97);
+    margin-left: 6px;
+}
+
+.app-header img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    margin: 0 12px 6px 12px;
+    filter: invert(48%) sepia(90%) saturate(4150%) hue-rotate(338deg) brightness(98%) contrast(85%);
+}

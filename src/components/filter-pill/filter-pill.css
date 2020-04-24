@@ -1,0 +1,11 @@
+.pill{
+    margin: 0 0 4px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    border: rgba(73, 135, 175, 1) solid 1px;
+}
+
+
+.close{
+    margin-left: 3px;
+}
