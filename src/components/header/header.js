@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
+import {connect} from 'react-redux';
 import './header.css';
 
 
-const Header = () => {
+const Header = ({total}) => {
 
     useEffect(() => {
         const header = document.getElementById("header");
@@ -19,14 +20,21 @@ const Header = () => {
 
     return(
         <div className="app-header" id="header">
-            <Link to="/" className="app-logo">
-                <img src="https://cdn1.iconfinder.com/data/icons/wayfinding-system-basic-icon-set/512/cinema-512.png"
-                     alt="app-logo"/>
-                AppMovies
-            </Link>
-            <Link to='/playlist' className='app-logo'>Player</Link>
+                <Link to="/" className="app-logo">
+                    <img src="https://cdn1.iconfinder.com/data/icons/wayfinding-system-basic-icon-set/512/cinema-512.png"
+                         alt="app-logo"
+                         className="app-logo-img"/>
+                    AppMovies
+                </Link>
+            <Link to='/playlist' className='app-logo'>Player { total ? <span className="total">({total})</span> : ''}</Link>
         </div>
     )
 };
 
-export default Header;
+const mapStateToProps = ({player: {playlist}}) => {
+    return {
+        total: playlist.length
+    }
+}
+
+export default connect(mapStateToProps)(Header);

@@ -11,12 +11,13 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 1.6rem 2.5rem;
     margin-bottom: 1.5rem;
-    height: 90px;
+    height: 5.5rem;
     display: flex;
     justify-content: space-between;
 }
 
-.app-logo, .app-logo:hover{
+.app-logo, .app-logo:hover,
+.total{
     font-family: 'Dancing Script', cursive;
     font-size: 20pt;
     text-decoration: none;
@@ -24,7 +25,13 @@
     margin-left: 6px;
 }
 
-.app-header img{
+.total{
+    font-size: 12pt;
+    vertical-align: text-top;
+    margin: 0 auto;
+}
+
+.app-logo-img{
     border-radius: 50%;
     width: 30px;
     height: 30px;
