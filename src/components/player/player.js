@@ -11,11 +11,11 @@ class Player extends Component{
     render(){
         const {id, videoUrl, play, moviePlay, moviePause, movieEnd} = this.props;
         return(
-            <div className="row">
-                <div className='col-4' style={{paddingRight: 0}}>
+            <div className="row no-gutters">
+                <div className='col-lg-4 col-md-12 col-sm-12 order-lg-1 order-md-2 order-sm-2 order-2' style={{paddingRight: 0}}>
                     <Playlist/>
                 </div>
-                <div className="col" style={{paddingLeft: 0}}>
+                <div className="col-lg-8 col-md-12 col-sm-12 order-lg-2 order-md-1 order-sm-1 order-1" style={{paddingLeft: 0}}>
                     <div className="player">
                         <ReactPlayer url={videoUrl}
                                      width='100%'
